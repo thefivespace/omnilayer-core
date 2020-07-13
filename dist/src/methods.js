@@ -844,6 +844,594 @@ var _default = {
       multiwallet: '>=0.17.0'
     },
     version: '>=0.17.0'
-  }
+  },
+  omni_send: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendnewdexorder: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendupdatedexorder: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendcanceldexorder: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_senddexaccept: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_senddexpay: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendissuancecrowdsale: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendissuancefixed: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendissuancemanaged: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendsto: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendgrant: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendrevoke: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendclosecrowdsale: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendtrade: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendcanceltradesbyprice: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendcanceltradesbypair: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendcancelalltrades: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendchangeissuer: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendall: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendenablefreezing: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_senddisablefreezing: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendfreeze: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendunfreeze: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_sendrawtx: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_funded_send: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_funded_sendall: {
+    category: 'omniTransactionCreation',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getinfo: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getbalance: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getallbalancesforid: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getallbalancesforaddress: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getwalletbalances: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getwalletaddressbalances: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_gettransaction: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_listtransactions: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_listblocktransactions: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_listblockstransactions: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_listpendingtransactions: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getactivedexsells: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_listproperties: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getproperty: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getactivecrowdsales: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getcrowdsale: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getgrants: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getsto: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_gettrade: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getorderbook: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_gettradehistoryforpair: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_gettradehistoryforaddress: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getactivations: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getpayload: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getseedblocks: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getcurrentconsensushash: {
+    category: 'omniDataRetrieval',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_decodetransaction: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createrawtx_opreturn: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createrawtx_multisig: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createrawtx_input: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createrawtx_reference: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createrawtx_change: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_simplesend: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_sendall: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_dexsell: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_dexaccept: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_sto: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_issuancefixed: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_issuancecrowdsale: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_issuancemanaged: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_closecrowdsale: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_grant: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_revoke: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_changeissuer: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_trade: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_canceltradesbyprice: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_canceltradesbypair: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_cancelalltrades: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_enablefreezing: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_disablefreezing: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_freeze: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_createpayload_unfreeze: {
+    category: 'omniRawTransactions',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getfeecache: {
+    category: 'omniFeeSystem',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getfeetrigger: {
+    category: 'omniFeeSystem',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getfeeshare: {
+    category: 'omniFeeSystem',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getfeedistribution: {
+    category: 'omniFeeSystem',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_getfeedistributions: {
+    category: 'omniFeeSystem',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
+  omni_setautocommit: {
+    category: 'omniConfiguration',
+    features: {
+      multiwallet: '>=0.1.0'
+    },
+    version: '>=0.1.0'
+  },
 };
 exports.default = _default;
